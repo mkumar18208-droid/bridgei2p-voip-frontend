@@ -7,7 +7,7 @@ import AdminPage from "@/pages/AdminPage";
 function App() {
   return (
     <div className="App">
-      <BrowserRouter basename="/voip-hyderabad">
+      <BrowserRouter>
         <Routes>
           <Route path="/" element={<LandingPage />} />
           <Route path="/admin" element={<AdminPage />} />
